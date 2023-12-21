@@ -1,86 +1,76 @@
-# ![logo](https://community.trinitycore.org/public/style_images/1_trinitycore.png) TrinityCore (master)
-
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/TrinityCore/TrinityCore.svg)](https://isitmaintained.com/project/TrinityCore/TrinityCore "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/TrinityCore/TrinityCore.svg)](https://isitmaintained.com/project/TrinityCore/TrinityCore "Percentage of issues still open")
+# ![logo](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/world-of-warcraft-10-2-leak-emerald-dream-zone.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5) CrownCore (master)
 
 --------------
 
+BASED ON TRINITYCORE
 
-* [Build Status](#build-status)
-* [Introduction](#introduction)
-* [Requirements](#requirements)
-* [Install](#install)
-* [Reporting issues](#reporting-issues)
-* [Submitting fixes](#submitting-fixes)
-* [Copyright](#copyright)
-* [Authors &amp; Contributors](#authors--contributors)
-* [Links](#links)
+🌐 Exciting Announcement for the WoW Community! 🚀
 
+Dear WoW Enthusiasts,
 
+We are thrilled to share a groundbreaking announcement with the entire World of Warcraft community! Introducing our public project, built on TrinityCore, where a wave of exciting fixes and enhancements is about to unfold.
 
-## Build Status
+🌟 What to Expect:
+This public project aims to enhance both the public and private WoW realms. We're committed to delivering a seamless gaming experience, packed with updates and improvements that cater to the vibrant World of Warcraft community.
 
-master | 3.3.5
-:------------: | :------------:
-[![master Build Status](https://circleci.com/gh/TrinityCore/TrinityCore/tree/master.svg?style=shield)](https://circleci.com/gh/TrinityCore/TrinityCore/tree/master) | [![3.3.5 Build Status](https://circleci.com/gh/TrinityCore/TrinityCore/tree/3.3.5.svg?style=shield)](https://circleci.com/gh/TrinityCore/TrinityCore/tree/3.3.5)
-[![master Build status](https://ci.appveyor.com/api/projects/status/54d0u1fxe50ad80o/branch/master?svg=true)](https://ci.appveyor.com/project/DDuarte/trinitycore/branch/master) | [![Build status](https://ci.appveyor.com/api/projects/status/54d0u1fxe50ad80o/branch/3.3.5?svg=true)](https://ci.appveyor.com/project/DDuarte/trinitycore/branch/3.3.5)
-[![master GCC Build status](https://github.com/TrinityCore/TrinityCore/actions/workflows/gcc-build.yml/badge.svg?branch=master&event=push)](https://github.com/TrinityCore/TrinityCore/actions?query=workflow%3AGCC+branch%3Amaster+event%3Apush) | [![3.3.5 GCC Build status](https://github.com/TrinityCore/TrinityCore/actions/workflows/gcc-build.yml/badge.svg?branch=3.3.5&event=push)](https://github.com/TrinityCore/TrinityCore/actions?query=workflow%3AGCC+branch%3A3.3.5+event%3Apush)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/435/badge.svg)](https://scan.coverity.com/projects/435) | [![Coverity Scan Build Status](https://scan.coverity.com/projects/4656/badge.svg)](https://scan.coverity.com/projects/4656)
+🔧 Ongoing Fixes and Enhancements:
+Our dedicated team is hard at work, crafting fixes and enhancements that will elevate your gameplay. From bug squashing to performance boosts, we're dedicated to making this project a haven for both public and private server enthusiasts.
 
-## Introduction
+👥 Community-Driven Development:
+We believe in the power of community collaboration! Your feedback and suggestions will play a crucial role in shaping the future of this project. Join us on this exciting journey as we co-create a WoW experience that exceeds expectations.
 
-TrinityCore is a *MMORPG* Framework based mostly in C++.
+🚀 Launch Schedule:
+Stay tuned for the rollout of our initial fixes and enhancements. We're launching a series of updates that will bring new life to your WoW adventures. Watch this space for more information on the release schedule.
 
-It is derived from *MaNGOS*, the *Massive Network Game Object Server*, and is
-based on the code of that project with extensive changes over time to optimize,
-improve and cleanup the codebase at the same time as improving the in-game
-mechanics and functionality.
+🌐 Connect with Us:
+We invite both public and private server administrators, developers, and players to connect with us. Share your insights, ideas, and experiences as we embark on this collaborative endeavor.
 
-It is completely open source; community involvement is highly encouraged.
+📧 Contact Information:
+For inquiries, collaboration opportunities, or to become a part of this exciting venture, reach out to us at [Your Contact Email].
 
-If you wish to contribute ideas or code, please visit our site linked below or
-make pull requests to our [Github repository](https://github.com/TrinityCore/TrinityCore/pulls).
+Thank you for being an integral part of the WoW community. Let's make this project a testament to the passion and dedication that defines the World of Warcraft experience!
 
-For further information on the TrinityCore project, please visit our project
-website at [TrinityCore.org](https://www.trinitycore.org).
+🌍 See you in Azeroth! 🌍
 
-## Requirements
+## 🌟 Exciting Changes Coming Your Way! 🚀
 
+## Dear WoW Adventurers,
 
-Software requirements are available in the [wiki](https://trinitycore.info/en/install/requirements) for
-Windows, Linux and macOS.
+We're thrilled to announce a series of exciting fixes and enhancements as we embark on a journey to elevate your World of Warcraft experience. Our focus is on refining the lower-level content, addressing concerns with allied race spells, and introducing fresh content from previous expansions. Get ready for a world of improvements and new adventures!
 
+🔧 Fixes and Enhancements:
 
-## Install
+Lower-Level Content Overhaul:
 
-Detailed installation guides are available in the [wiki](https://trinitycore.info/en/home) for
-Windows, Linux and macOS.
+Revamping quest lines to provide a more engaging and coherent storyline for lower-level characters.
+Addressing balance issues to ensure a smoother leveling experience for all players.
+Allied Races and Spells:
 
+Fine-tuning and polishing the spells of allied races to enhance gameplay and visual effects.
+Ensuring racial abilities are impactful and contribute meaningfully to the gaming experience.
+New Content from Previous Expansions:
 
-## Reporting issues
+Bringing fresh content from beloved expansions to enrich the overall game world.
+Introducing exciting challenges, quests, and rewards for players to discover.
+Class Spell Adjustments:
 
-Issues can be reported via the [Github issue tracker](https://github.com/TrinityCore/TrinityCore/labels/Branch-master).
+Reviewing and adjusting class spells to improve balance and diversity.
+Listening to player feedback to ensure classes feel distinct and enjoyable.
+Bug Squashing:
 
-Please take the time to review existing issues before submitting your own to
-prevent duplicates.
+Conducting a thorough bug-squashing initiative to eliminate pesky issues and improve overall game stability.
+👥 Community Collaboration:
+We value your input! This is a collaborative effort, and your feedback is essential. Connect with us on forums, social media, or in-game to share your thoughts, suggestions, and experiences.
 
-In addition, thoroughly read through the [issue tracker guide](https://community.trinitycore.org/topic/37-the-trinitycore-issuetracker-and-you/) to ensure
-your report contains the required information. Incorrect or poorly formed
-reports are wasteful and are subject to deletion.
+🚀 Rollout Plan:
+Stay tuned for our rollout plan! We'll be implementing these changes in phases, ensuring a smooth and seamless transition.
 
+🌐 Connect with Us:
+Join the conversation on our forums, follow us on social media, and stay connected for regular updates on the progress of these exciting changes.
 
-## Submitting fixes
+Let's make Azeroth an even more thrilling and immersive world together. Your adventures are about to get a whole lot more epic!
 
-C++ fixes are submitted as pull requests via Github. For more information on how to
-properly submit a pull request, read the [how-to: maintain a remote fork](https://community.trinitycore.org/topic/9002-howto-maintain-a-remote-fork-for-pull-requests-tortoisegit/).
-For SQL only fixes, open a ticket; if a bug report exists for the bug, post on an existing ticket.
-
-
-## Copyright
-
-License: GPL 2.0
-
-Read file [COPYING](COPYING).
-
+🌍 See you in the World of Warcraft! 🌍
 
 ## Authors &amp; Contributors
 
@@ -89,7 +79,4 @@ Read file [AUTHORS](AUTHORS).
 
 ## Links
 
-* [Website](https://www.trinitycore.org)
-* [Wiki](https://www.trinitycore.info)
-* [Forums](https://talk.trinitycore.org/)
-* [Discord](https://discord.trinitycore.org/)
+* [Discord](https://discord.gg/Mrt3HPSN)
