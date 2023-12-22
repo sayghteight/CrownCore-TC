@@ -16,37 +16,32 @@
  */
 
 #include "ScriptMgr.h"
-#include "shadowfang_keep.h"
+#include "end_time.h"
 #include "InstanceScript.h"
 
 ObjectData const creatureData[] =
 {
-    { NPC_BARON_ASHBURY,        BOSS_BARON_ASHBURY          },
-    { NPC_BARON_SILVERLAINE,    BOSS_BARON_SILVERLAINE      },
-    { NPC_COMMANDER_SPRINGVALE, BOSS_COMMANDER_SPRINGVALE   },
-    { NPC_LORD_WALDEN,          BOSS_LORD_WALDEN            },
-    { NPC_LORD_GODFREY,         BOSS_LORD_GODFREY           },
-    { 0,                        0                           } // END
+    { NPC_MUROZOND, BOSS_MUROZOND },
+    { 0,            0             } // END
 };
 
 DungeonEncounterData const encounters[] =
 {
-    { BOSS_BARON_ASHBURY,           {{ 1069 }}  },
-    { BOSS_BARON_SILVERLAINE,       {{ 1070 }}  },
-    { BOSS_COMMANDER_SPRINGVALE,    {{ 1071 }}  },
-    { BOSS_LORD_WALDEN,             {{ 1073 }}  },
-    { BOSS_LORD_GODFREY,            {{ 1072 }}  },
-    { BOSS_APOTHECARY_HUMMEL,       {{ 2879 }}  }
+    { BOSS_ECHO_OF_BAINE,       {{ 1881 }}  },
+    { BOSS_ECHO_OF_SYLVANAS,    {{ 1882 }}  },
+    { BOSS_ECHO_OF_JAINA,       {{ 1883 }}  },
+    { BOSS_ECHO_OF_TYRANDE,     {{ 1884 }}  },
+    { BOSS_MUROZOND,            {{ 1271 }}  }
 };
 
-class instance_shadowfang_keep : public InstanceMapScript
+class instance_end_time : public InstanceMapScript
 {
 public:
-    instance_shadowfang_keep() : InstanceMapScript(SFKScriptName, 33) { }
+    instance_end_time() : InstanceMapScript(ETScriptName, 938) { }
 
-    struct instance_shadowfang_keep_InstanceMapScript : public InstanceScript
+    struct instance_end_time_InstanceMapScript : public InstanceScript
     {
-        instance_shadowfang_keep_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
+        instance_end_time_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
         {
             SetHeaders(DataHeader);
             SetBossNumber(EncounterCount);
@@ -57,11 +52,11 @@ public:
 
     InstanceScript* GetInstanceScript(InstanceMap* map) const override
     {
-        return new instance_shadowfang_keep_InstanceMapScript(map);
+        return new instance_end_time_InstanceMapScript(map);
     }
 };
 
-void AddSC_instance_shadowfang_keep()
+void AddSC_instance_end_time()
 {
-    new instance_shadowfang_keep();
+    new instance_end_time();
 }

@@ -16,37 +16,34 @@
  */
 
 #include "ScriptMgr.h"
-#include "shadowfang_keep.h"
+#include "grim_batol.h"
 #include "InstanceScript.h"
 
 ObjectData const creatureData[] =
 {
-    { NPC_BARON_ASHBURY,        BOSS_BARON_ASHBURY          },
-    { NPC_BARON_SILVERLAINE,    BOSS_BARON_SILVERLAINE      },
-    { NPC_COMMANDER_SPRINGVALE, BOSS_COMMANDER_SPRINGVALE   },
-    { NPC_LORD_WALDEN,          BOSS_LORD_WALDEN            },
-    { NPC_LORD_GODFREY,         BOSS_LORD_GODFREY           },
+    { NPC_GENERAL_UMBRISS,      BOSS_GENERAL_UMBRISS        },
+    { NPC_FORGEMASTER_THRONGUS, BOSS_FORGEMASTER_THRONGUS   },
+    { NPC_DRAHGA_SHADOWBURNER,  BOSS_DRAHGA_SHADOWBURNER    },
+    { NPC_ERUDAX,               BOSS_ERUDAX                 },
     { 0,                        0                           } // END
 };
 
 DungeonEncounterData const encounters[] =
 {
-    { BOSS_BARON_ASHBURY,           {{ 1069 }}  },
-    { BOSS_BARON_SILVERLAINE,       {{ 1070 }}  },
-    { BOSS_COMMANDER_SPRINGVALE,    {{ 1071 }}  },
-    { BOSS_LORD_WALDEN,             {{ 1073 }}  },
-    { BOSS_LORD_GODFREY,            {{ 1072 }}  },
-    { BOSS_APOTHECARY_HUMMEL,       {{ 2879 }}  }
+    { BOSS_GENERAL_UMBRISS,         {{ 1051 }}  },
+    { BOSS_FORGEMASTER_THRONGUS,    {{ 1050 }}  },
+    { BOSS_DRAHGA_SHADOWBURNER,     {{ 1048 }}  },
+    { BOSS_ERUDAX,                  {{ 1049 }}  }
 };
 
-class instance_shadowfang_keep : public InstanceMapScript
+class instance_grim_batol : public InstanceMapScript
 {
 public:
-    instance_shadowfang_keep() : InstanceMapScript(SFKScriptName, 33) { }
+    instance_grim_batol() : InstanceMapScript(GBTScriptName, 670) { }
 
-    struct instance_shadowfang_keep_InstanceMapScript : public InstanceScript
+    struct instance_grim_batol_InstanceMapScript : public InstanceScript
     {
-        instance_shadowfang_keep_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
+        instance_grim_batol_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
         {
             SetHeaders(DataHeader);
             SetBossNumber(EncounterCount);
@@ -57,11 +54,11 @@ public:
 
     InstanceScript* GetInstanceScript(InstanceMap* map) const override
     {
-        return new instance_shadowfang_keep_InstanceMapScript(map);
+        return new instance_grim_batol_InstanceMapScript(map);
     }
 };
 
-void AddSC_instance_shadowfang_keep()
+void AddSC_instance_grim_batol()
 {
-    new instance_shadowfang_keep();
+    new instance_grim_batol();
 }

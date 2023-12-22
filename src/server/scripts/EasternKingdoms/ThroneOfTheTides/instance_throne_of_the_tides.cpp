@@ -16,37 +16,34 @@
  */
 
 #include "ScriptMgr.h"
-#include "shadowfang_keep.h"
+#include "throne_of_the_tides.h"
 #include "InstanceScript.h"
 
 ObjectData const creatureData[] =
 {
-    { NPC_BARON_ASHBURY,        BOSS_BARON_ASHBURY          },
-    { NPC_BARON_SILVERLAINE,    BOSS_BARON_SILVERLAINE      },
-    { NPC_COMMANDER_SPRINGVALE, BOSS_COMMANDER_SPRINGVALE   },
-    { NPC_LORD_WALDEN,          BOSS_LORD_WALDEN            },
-    { NPC_LORD_GODFREY,         BOSS_LORD_GODFREY           },
-    { 0,                        0                           } // END
+    { NPC_LADY_NAZJAR,          BOSS_LADY_NAZJAR        },
+    { NPC_COMMANDER_ULTHOK,     BOSS_COMMANDER_ULTHOK   },
+    { NPC_MINDBENDER_GURSHA,    BOSS_MINDBENDER_GURSHA  },
+    { NPC_OZUMAT,               DATA_OZUMAT             },
+    { 0,                        0                       } // END
 };
 
 DungeonEncounterData const encounters[] =
 {
-    { BOSS_BARON_ASHBURY,           {{ 1069 }}  },
-    { BOSS_BARON_SILVERLAINE,       {{ 1070 }}  },
-    { BOSS_COMMANDER_SPRINGVALE,    {{ 1071 }}  },
-    { BOSS_LORD_WALDEN,             {{ 1073 }}  },
-    { BOSS_LORD_GODFREY,            {{ 1072 }}  },
-    { BOSS_APOTHECARY_HUMMEL,       {{ 2879 }}  }
+    { BOSS_LADY_NAZJAR,         {{ 1045 }}  },
+    { BOSS_COMMANDER_ULTHOK,    {{ 1044 }}  },
+    { BOSS_MINDBENDER_GURSHA,   {{ 1046 }}  },
+    { BOSS_OZUMAT,              {{ 1047 }}  }
 };
 
-class instance_shadowfang_keep : public InstanceMapScript
+class instance_throne_of_the_tides : public InstanceMapScript
 {
 public:
-    instance_shadowfang_keep() : InstanceMapScript(SFKScriptName, 33) { }
+    instance_throne_of_the_tides() : InstanceMapScript(TotTScriptName, 643) { }
 
-    struct instance_shadowfang_keep_InstanceMapScript : public InstanceScript
+    struct instance_throne_of_the_tides_InstanceMapScript : public InstanceScript
     {
-        instance_shadowfang_keep_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
+        instance_throne_of_the_tides_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
         {
             SetHeaders(DataHeader);
             SetBossNumber(EncounterCount);
@@ -57,11 +54,11 @@ public:
 
     InstanceScript* GetInstanceScript(InstanceMap* map) const override
     {
-        return new instance_shadowfang_keep_InstanceMapScript(map);
+        return new instance_throne_of_the_tides_InstanceMapScript(map);
     }
 };
 
-void AddSC_instance_shadowfang_keep()
+void AddSC_instance_throne_of_the_tides()
 {
-    new instance_shadowfang_keep();
+    new instance_throne_of_the_tides();
 }

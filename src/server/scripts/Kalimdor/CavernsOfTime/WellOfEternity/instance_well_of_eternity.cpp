@@ -16,37 +16,30 @@
  */
 
 #include "ScriptMgr.h"
-#include "shadowfang_keep.h"
+#include "well_of_eternity.h"
 #include "InstanceScript.h"
 
 ObjectData const creatureData[] =
 {
-    { NPC_BARON_ASHBURY,        BOSS_BARON_ASHBURY          },
-    { NPC_BARON_SILVERLAINE,    BOSS_BARON_SILVERLAINE      },
-    { NPC_COMMANDER_SPRINGVALE, BOSS_COMMANDER_SPRINGVALE   },
-    { NPC_LORD_WALDEN,          BOSS_LORD_WALDEN            },
-    { NPC_LORD_GODFREY,         BOSS_LORD_GODFREY           },
-    { 0,                        0                           } // END
+    { NPC_PEROTHARN,    BOSS_PEROTHARN  },
+    { 0,                0               } // END
 };
 
 DungeonEncounterData const encounters[] =
 {
-    { BOSS_BARON_ASHBURY,           {{ 1069 }}  },
-    { BOSS_BARON_SILVERLAINE,       {{ 1070 }}  },
-    { BOSS_COMMANDER_SPRINGVALE,    {{ 1071 }}  },
-    { BOSS_LORD_WALDEN,             {{ 1073 }}  },
-    { BOSS_LORD_GODFREY,            {{ 1072 }}  },
-    { BOSS_APOTHECARY_HUMMEL,       {{ 2879 }}  }
+    { BOSS_PEROTHARN,       {{ 1272 }}  },
+    { BOSS_QUEEN_AZSHARA,   {{ 1273 }}  },
+    { BOSS_MANNOROTH,       {{ 1274 }}  }
 };
 
-class instance_shadowfang_keep : public InstanceMapScript
+class instance_well_of_eternity : public InstanceMapScript
 {
 public:
-    instance_shadowfang_keep() : InstanceMapScript(SFKScriptName, 33) { }
+    instance_well_of_eternity() : InstanceMapScript(WoEScriptName, 939) { }
 
-    struct instance_shadowfang_keep_InstanceMapScript : public InstanceScript
+    struct instance_well_of_eternity_InstanceMapScript : public InstanceScript
     {
-        instance_shadowfang_keep_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
+        instance_well_of_eternity_InstanceMapScript(InstanceMap* map) : InstanceScript(map)
         {
             SetHeaders(DataHeader);
             SetBossNumber(EncounterCount);
@@ -57,11 +50,11 @@ public:
 
     InstanceScript* GetInstanceScript(InstanceMap* map) const override
     {
-        return new instance_shadowfang_keep_InstanceMapScript(map);
+        return new instance_well_of_eternity_InstanceMapScript(map);
     }
 };
 
-void AddSC_instance_shadowfang_keep()
+void AddSC_instance_well_of_eternity()
 {
-    new instance_shadowfang_keep();
+    new instance_well_of_eternity();
 }
