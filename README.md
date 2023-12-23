@@ -1,6 +1,9 @@
 # ![logo](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/world-of-warcraft-10-2-leak-emerald-dream-zone.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5) CrownCore (master)
 
 --------------
+# Database Hotfixes https://www.mediafire.com/file/1buhl94fm5kczop/hotfixes.rar/file
+# Database World https://www.mediafire.com/file/n56ah6wsaq02rug/world.rar/file
+# Maps Data https://www.mediafire.com/file_premium/uduby0m338livw5/Todos_los_Mapas_para_Repack_Dragonflight_10.2.0_%252852188%2529.zip/file
 
 BASED ON TRINITYCORE
 
