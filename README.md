@@ -1,4 +1,4 @@
-# ![logo]![DALLE_2023-12-24_21 58 34_-_An_image_featuring_the_text_CrownCore_in_a_fantasy_font_designed_in_the_World_of_Warcraft_graphics_style _The_text_should_be_bold_and_impactful_wi](https://github.com/CrownCore/CrownCore/assets/123419223/db983ae4-4ca2-4128-bde7-7edb8215457c)
+# ![DALLE_2023-12-24_21 58 34_-_An_image_featuring_the_text_CrownCore_in_a_fantasy_font_designed_in_the_World_of_Warcraft_graphics_style _The_text_should_be_bold_and_impactful_wi](https://github.com/CrownCore/CrownCore/assets/123419223/db983ae4-4ca2-4128-bde7-7edb8215457c)
  CrownCore (master)
 
 --------------
