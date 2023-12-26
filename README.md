@@ -1,4 +1,5 @@
-# ![logo](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/world-of-warcraft-10-2-leak-emerald-dream-zone.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5) CrownCore (master)
+# ![DALLE_2023-12-24_21 58 34_-_An_image_featuring_the_text_CrownCore_in_a_fantasy_font_designed_in_the_World_of_Warcraft_graphics_style _The_text_should_be_bold_and_impactful_wi](https://github.com/CrownCore/CrownCore/assets/123419223/db983ae4-4ca2-4128-bde7-7edb8215457c)
+ CrownCore (master)
 
 --------------
 # Database Hotfixes https://www.mediafire.com/file/1buhl94fm5kczop/hotfixes.rar/file
