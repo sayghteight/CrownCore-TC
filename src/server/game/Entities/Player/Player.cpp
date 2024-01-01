@@ -2012,6 +2012,24 @@ bool Player::CanInteractWithQuestGiver(Object* questGiver) const
     return false;
 }
 
+bool Player::HasQuest(uint32 questID) const
+{
+    if (questID == 0)
+        return false;
+    try
+    {
+        for (uint8 itr = 0; itr < MAX_QUEST_LOG_SIZE; ++itr)
+            if (GetQuestSlotQuestId(itr) == questID)
+                return true;
+    }
+    catch (...)
+    {
+
+    }
+
+    return false;
+}
+
 Creature* Player::GetNPCIfCanInteractWith(ObjectGuid const& guid, NPCFlags npcFlags, NPCFlags2 npcFlags2) const
 {
     // unit checks
