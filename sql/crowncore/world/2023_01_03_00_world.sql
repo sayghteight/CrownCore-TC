@@ -10456,3 +10456,44 @@ UPDATE `creature_template` SET `unit_flags3`=16777217 WHERE `entry`=65843; -- St
 UPDATE `creature_template` SET `npcflag`=81 WHERE `entry`=66979; -- Stonebreaker Ruian
 UPDATE `creature_template` SET `unit_flags3`=16777216 WHERE `entry`=66203; -- Thunder Hold Cannon
 UPDATE `creature_template` SET `unit_flags3`=16777216 WHERE `entry`=66210; -- Thunder Hold Explosive Barrel
+
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43367, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214844; -- Serpent's Scale
+UPDATE `gameobject_template` SET `Data1`=0, `Data18`=680, `Data26`=0, `Data30`=45181, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214337; -- Stash of Gems
+UPDATE `gameobject_template` SET `VerifiedBuild`=52649 WHERE `entry` IN (214832, 212033, 212032, 212027, 212031, 215862, 213327, 195569, 212035, 212028, 212034, 212030, 212029, 209355, 214163, 210225, 209350, 214831, 214834, 214833, 214835, 210226, 209313, 212174, 214960, 214959, 214958, 214957, 214956, 214955, 214954, 214952, 214951, 214953, 214950, 214949, 209436, 209836, 209887, 215779, 211773, 211576, 211573, 211575, 211577, 211574, 214644, 211609, 211608, 211607, 209829, 209827, 209830, 209828, 210612, 210613, 211795, 210674, 175544, 210616, 210611, 210614, 209595, 209586, 215123, 215122, 211718, 211717, 212169, 215835, 215834, 278575, 215973, 215318, 210805, 210691, 210690, 209354, 212404, 214420, 214417, 213004, 212284, 214421, 212283, 214419, 214418, 212693, 212287, 212286, 212285, 211796, 211797, 209857, 209903, 212887, 212897, 212892, 210807, 214408, 212898, 212770, 212769, 213170, 213421, 215781, 212899, 213832, 210087, 210806, 210565, 211862, 211476, 210985, 210856, 210512, 213975, 209951, 209833, 209826, 213840, 213841, 213839, 213838, 214414, 214416, 210940, 210939, 215799, 210941, 278492, 214411, 214410, 210953, 214425, 213446, 211466, 211465, 209886, 211464, 214565, 214564, 214563, 213090, 213269, 213268, 211651, 210925, 213270, 213271, 213091, 211957, 211921, 211915, 211917, 211920, 211919, 211914, 211954, 211913, 211912, 211910, 211918, 214884, 214869, 214878, 211955, 214870, 211956, 209622, 211771, 212614, 212620, 212619, 212618, 212617, 212616, 212615, 212633, 212631, 212626, 212632, 212630, 212629, 212628, 212627, 340097, 340096, 212613, 212178, 211494, 211496, 211495, 209462, 209460, 209463, 209461, 213512, 213415, 214379, 212900, 209780, 213366, 212967, 212966, 212192, 211990, 212924, 212193, 212191, 212926, 212925, 215844, 215036, 215034, 215033, 215032, 215031, 215037, 214864, 212969, 212185, 214791, 214723, 215035, 212325, 209550, 212181, 215860, 215859, 215564, 215563, 215562, 215423, 215422, 215709, 215702, 209353, 215681, 215650, 215649, 215646, 215967, 209349, 215689, 209328, 209311, 200296, 215718, 215711, 212171, 215845, 212576, 212572, 212571, 212570, 212569, 212561, 212560, 212559, 212186, 212583, 212562, 212587, 212584, 212589, 212585, 212563, 212564, 212578, 212586, 212579, 212595, 212594, 212593, 212592, 212591, 212590, 212588, 212582, 212568, 212567, 212566, 212565);
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=41305, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210239; -- Serpent Egg
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=41322, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210277; -- Slitherscale Weapons
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=41305, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210240; -- Serpent Egg
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=41305, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210238; -- Serpent Egg
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43460, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214945; -- Onyx Egg
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43372, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214867; -- Stolen Boots
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43372, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214866; -- Stolen Boots
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43372, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214868; -- Stolen Boots
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43372, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214865; -- Stolen Boots
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43478, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214986; -- Stolen Sri-La Keg
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=43363, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214845; -- Oona Brew Mug
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209890; -- Restorative Heart
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209889; -- Restorative Spirit
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209888; -- Restorative Mind
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209885; -- Restorative Body
+UPDATE `gameobject_template` SET `Data8`=103828, `Data10`=30091, `VerifiedBuild`=52649 WHERE `entry`=209932; -- Waterforge
+UPDATE `gameobject_template` SET `Data8`=103828, `Data10`=30091, `VerifiedBuild`=52649 WHERE `entry`=215184; -- Anvil
+UPDATE `gameobject_template` SET `Data8`=103828, `Data10`=30091, `VerifiedBuild`=52649 WHERE `entry`=215183; -- Anvil
+UPDATE `gameobject_template` SET `Data8`=103829, `Data10`=30092, `VerifiedBuild`=52649 WHERE `entry`=215182; -- Forge
+UPDATE `gameobject_template` SET `Data8`=103828, `Data10`=30091, `VerifiedBuild`=52649 WHERE `entry`=215181; -- Anvil
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=215133; -- Applebloom Cider
+UPDATE `gameobject_template` SET `Data1`=0, `Data26`=0, `Data30`=43354, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214338; -- Offering of Remembrance
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=40278, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209345; -- Orchard Tool
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=40278, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209344; -- Orchard Tool
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210116; -- Bell of a Thousand Whispers
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=40881, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210086; -- Ancient Sutra
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=40881, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=210085; -- Ancient Sutra
+UPDATE `gameobject_template` SET `Data1`=0, `Data4`=1, `Data5`=1, `Data18`=680, `Data19`=2, `Data30`=42834, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=213364; -- Ancient Pandaren Mining Pick
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214873; -- Vacant Destroyer
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=214871; -- Shattered Destroyer
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=40371, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209464; -- Rattan Switch
+UPDATE `gameobject_template` SET `ContentTuningId`=59, `VerifiedBuild`=52649 WHERE `entry`=216427; -- Hammer of Fellowship
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209551; -- Boiling Cauldron
+UPDATE `gameobject_template` SET `Data1`=0, `Data30`=40481, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=209825; -- Tidemist Cap
+UPDATE `gameobject_template` SET `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=211642; -- Lucky Golden Coin
+UPDATE `gameobject_template` SET `Data1`=0, `Data4`=1, `Data5`=1, `Data18`=680, `Data19`=2, `Data30`=42833, `ContentTuningId`=57, `VerifiedBuild`=52649 WHERE `entry`=213363; -- Wodin's Mantid Shanker
+UPDATE `gameobject_template` SET `Data8`=103828, `Data10`=30091, `VerifiedBuild`=52649 WHERE `entry`=191640; -- Anvil
